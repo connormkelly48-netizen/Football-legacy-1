@@ -1,0 +1,10 @@
+{
+	"appId": "com.connorkelly.footballlegacy",
+	"appName": "Football Legacy",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"server": {
+		"androidScheme": "https"
+	},
+	"android": {}
+}

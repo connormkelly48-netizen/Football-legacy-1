@@ -1,0 +1,27 @@
+import { LeagueRecord } from '../../../types/database';
+
+export const LEAGUES_2026_27: LeagueRecord[] = [
+  { id: "ENG_PREM", name: "Premier League", countryId: "ENG", tier: 1, rep: 95, promotionTo: null, relegationTo: "ENG_CHAMP" },
+  { id: "ENG_CHAMP", name: "EFL Championship", countryId: "ENG", tier: 2, rep: 78, promotionTo: "ENG_PREM", relegationTo: null },
+  { id: "ESP_LALIGA", name: "La Liga", countryId: "ESP", tier: 1, rep: 92, promotionTo: null, relegationTo: "ESP_LALIGA2" },
+  { id: "ESP_LALIGA2", name: "La Liga 2", countryId: "ESP", tier: 2, rep: 72, promotionTo: "ESP_LALIGA", relegationTo: null },
+  { id: "GER_BL1", name: "Bundesliga", countryId: "GER", tier: 1, rep: 90, promotionTo: null, relegationTo: "GER_BL2" },
+  { id: "GER_BL2", name: "2. Bundesliga", countryId: "GER", tier: 2, rep: 73, promotionTo: "GER_BL1", relegationTo: null },
+  { id: "ITA_SERIEA", name: "Serie A", countryId: "ITA", tier: 1, rep: 89, promotionTo: null, relegationTo: "ITA_SERIEB" },
+  { id: "ITA_SERIEB", name: "Serie B", countryId: "ITA", tier: 2, rep: 70, promotionTo: "ITA_SERIEA", relegationTo: null },
+  { id: "FRA_L1", name: "Ligue 1", countryId: "FRA", tier: 1, rep: 86, promotionTo: null, relegationTo: "FRA_L2" },
+  { id: "FRA_L2", name: "Ligue 2", countryId: "FRA", tier: 2, rep: 68, promotionTo: "FRA_L1", relegationTo: null },
+  { id: "POR_LIGA1", name: "Liga Portugal", countryId: "POR", tier: 1, rep: 81, promotionTo: null, relegationTo: null },
+  { id: "NED_ERED", name: "Eredivisie", countryId: "NED", tier: 1, rep: 82, promotionTo: null, relegationTo: null },
+  { id: "BEL_PRO", name: "Belgian Pro League", countryId: "BEL", tier: 1, rep: 77, promotionTo: null, relegationTo: "BEL_CHALLENGER" },
+  { id: "BEL_CHALLENGER", name: "Challenger Pro League", countryId: "BEL", tier: 2, rep: 58, promotionTo: "BEL_PRO", relegationTo: null },
+  { id: "AUT_BL", name: "Austrian Bundesliga", countryId: "AUT", tier: 1, rep: 70, promotionTo: null, relegationTo: "AUT_2LIGA" },
+  { id: "AUT_2LIGA", name: "2. Liga", countryId: "AUT", tier: 2, rep: 50, promotionTo: "AUT_BL", relegationTo: null },
+  { id: "SUI_SUPER", name: "Swiss Super League", countryId: "SUI", tier: 1, rep: 71, promotionTo: null, relegationTo: "SUI_CHALLENGE" },
+  { id: "SUI_CHALLENGE", name: "Challenge League", countryId: "SUI", tier: 2, rep: 48, promotionTo: "SUI_SUPER", relegationTo: null },
+  { id: "SCO_PREM", name: "Scottish Premiership", countryId: "SCO", tier: 1, rep: 75, promotionTo: null, relegationTo: "SCO_CHAMP" },
+  { id: "SCO_CHAMP", name: "Scottish Championship", countryId: "SCO", tier: 2, rep: 56, promotionTo: "SCO_PREM", relegationTo: null },
+  { id: "IRL_PREM", name: "League of Ireland Premier Division", countryId: "IRL", tier: 1, rep: 52, promotionTo: null, relegationTo: "IRL_FIRST" },
+  { id: "IRL_FIRST", name: "League of Ireland First Division", countryId: "IRL", tier: 2, rep: 42, promotionTo: "IRL_PREM", relegationTo: null },
+  { id: "TUR_SUPER", name: "Süper Lig", countryId: "TUR", tier: 1, rep: 76, promotionTo: null, relegationTo: null },
+];
